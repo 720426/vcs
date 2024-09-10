@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Festival Contribution</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Festival Contribution</h1>
+        <form id="contributionForm">
+            <label for="name">Name (required):</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="semester">Semester (required):</label>
+            <input type="text" id="semester" name="semester" required>
+
+            <label for="phone">Phone Number (optional):</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="amount">Contribution Amount (required):</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <!-- Pay Now button -->
+            <button type="button" id="payNowButton">Pay Now via UPI</button>
+        </form>
+        <p id="confirmationMessage"></p>
+        
+        <!-- QR Code Section -->
+        <div id="qrCodeSection">
+            <h2>Pay with UPI QR Code</h2>
+            <img src="WhatsApp%20Image%202024-09-11%20at%2000.29.00_d6cfa967.png" alt="UPI QR Code" style="width: 200px; height: auto;">
+            <p>UPI Handle: 8951829412@ptsbi</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
