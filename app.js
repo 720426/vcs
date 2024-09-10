@@ -11,7 +11,7 @@ document.getElementById('payNowButton').addEventListener('click', function() {
         window.location.href = upiLink;
 
         // Send data to Google Sheets
-        fetch('https://script.google.com/macros/s/AKfycbw_7oTfXxRlzePAeUji9aRMvHTJdlE5czF_Dvs8e9iTAwtF_A49niR1c7yjR1HZ79BZ/exec', { // Replace with your actual Web App URL
+        fetch('https://script.google.com/macros/s/AKfycbzfXgoBIvOr3uy6QOxavceMCVEIPc3W6jXSuf3EdAlrF6Ak8v72SsCrkxL15ghoNPGo/exec', { // Replace with your actual Web App URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
