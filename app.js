@@ -7,7 +7,7 @@ document.getElementById('payNowButton').addEventListener('click', function() {
     if (name && semester && amount) {
         // Generate UPI payment link
         const upiID = '8951829412@ptsbi'; // Your UPI ID
-        const upiLink = `upi://pay?pa=${upiID}&pn=${name}&am=${amount}&cu=INR`;
+        const upiLink = `upi://pay?pa=8951829412@ptsbi&pn=Ganesha festiival`;
 
         // Redirect to UPI payment link
         window.location.href = upiLink;
